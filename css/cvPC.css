@@ -1,0 +1,165 @@
+@media screen and (min-width:400px) and (max-width:639px){
+body{
+  font-size: 12px;
+}
+header img{
+  width: 20%;
+  position: absolute;
+  right: 3%;
+}
+hr, p, #formation ul, #experiences ul, #centresInteret ul {
+  display: none;
+}
+  #intro{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-end;
+    padding:  3% 5% 0% 7%;
+  }
+  header p {
+    display: block;
+    font-size: 130%;
+    margin-top: 15%;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #intro img{
+    width: 35%;
+  }
+  #intro li{
+    list-style: none;
+}
+#intro ul{
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+h2{
+  background: #B42222;
+  color: white;
+  padding: 1%;
+  border-radius: 7px 7px 0 7px;
+}
+
+h2 img{
+position: absolute;
+padding: 0%;
+margin: 0%;
+width: 3%;
+right: 5%;
+}
+h1{
+  color: #B42222;
+  text-align: center;
+  order:3;
+}
+
+#competences h2:hover~p,
+#formation h2:hover~p, #formation h2:hover~ul,
+#experiences h2:hover~p, #experiences h2:hover~ul,
+#centresInteret h2:hover~ul{
+    display: block;
+}
+}
+@media screen and (min-width:640px) and (max-width:1500px) {
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 2% 10%;
+  font-size: 1.2em;
+}
+header img{
+  display: none;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+}
+h1{
+  order:2;
+}
+.croix{
+  display: none;
+}
+header p{
+  width: 20%;
+  background:#B42222;
+  color: white;
+  margin-right: 1em;
+  padding: 1% 0.8em;
+  border-radius: 1em;
+  margin-bottom: 0;
+}
+
+h1{
+  border: 0.1em solid #B42222;
+  border-radius: 0.8em;
+  padding: 2%;
+  height: 2%;
+  margin-top: 1.3em;
+  margin-right: 5%;
+  text-align: center;
+
+}
+#intro{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: flex-end;
+  padding:  3% 0% 0% 0%;
+
+}
+
+#intro li{
+  list-style: none;
+}
+#intro ul{
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #B42222;
+  margin-bottom: 0;
+  font-style: gras;
+}
+
+hr{
+  border-top: 2px solid #B42222;
+  margin: 0 0 1% 0;
+}
+
+#competences p, #formation p, #experiences p{
+  margin: 0;
+}
+#formation ul, #experiences ul{
+  margin-top: 0;
+  margin-left: 5%;
+}
+
+#centresInteret li{
+  display: inline-block;
+  margin : 0px;
+}
+#centresInteret ul{
+  padding: 0px;
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+
+#formation ul:nth-last-of-type(2),
+#experiences ul:nth-last-of-type(1),
+#experiences ul:nth-last-of-type(2){
+    padding-bottom:   1%;
+}
+
+}
